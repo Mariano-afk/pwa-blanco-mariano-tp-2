@@ -6,7 +6,7 @@ const precache = [
   './js/register-sw.js',
   './index.html',
   './offline.html',
-  './img/Messi-offline.jpg'
+  './img/Messi-offline-bar.jpg'
 ];
 
 
