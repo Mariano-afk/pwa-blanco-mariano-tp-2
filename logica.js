@@ -448,4 +448,5 @@ function mensajeTime() {
   const d = '';
   document.getElementById("mensaje").innerHTML ='';
 }
+crearMensaje();
 pantallaInicio();
