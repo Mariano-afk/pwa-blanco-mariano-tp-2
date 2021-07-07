@@ -433,6 +433,7 @@ function messi () {
     divTotal.classList.add('card', 'bg-dark', 'text-white');
     
     let imgTotal = document.createElement('img');
+    imgTotal.classList.add('rounded', 'mx-auto', 'd-block');
     imgTotal.setAttribute('src', 'img/messi.jpg');
     imgTotal.setAttribute('alt', 'messi');
         
@@ -469,6 +470,7 @@ function messi () {
     divArg.classList.add('card', 'bg-dark', 'text-white');
     
     let imgArg = document.createElement('img');
+    imgArg.classList.add('rounded', 'mx-auto', 'd-block');
     imgArg.setAttribute('src', 'img/messi-arg.jpg');
     imgArg.setAttribute('alt', 'messi');
         
@@ -505,6 +507,7 @@ function messi () {
     divBar.classList.add('card', 'bg-dark', 'text-white');
     
     let imgBar = document.createElement('img');
+    imgBar.classList.add('rounded', 'mx-auto', 'd-block');
     imgBar.setAttribute('src', 'img/messi-bar.jpg');
     imgBar.setAttribute('alt', 'messi');
     
