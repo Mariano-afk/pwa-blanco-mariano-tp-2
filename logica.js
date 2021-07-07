@@ -438,7 +438,8 @@ function messi () {
     imgTotal.setAttribute('alt', 'messi');
         
     let divTextTotal = document.createElement('div');
-    divTextTotal.classList.add('card-img-overlay');
+    divTextTotal.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
+    divTextTotal.textContent('style', 'max-width:35%');
     
     let tituloTotal = document.createElement('h5');
     tituloTotal.classList.add('card-title');
@@ -475,7 +476,8 @@ function messi () {
     imgArg.setAttribute('alt', 'messi');
         
     let divTextArg = document.createElement('div');
-    divTextArg.classList.add('card-img-overlay');
+    divTextArg.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
+    divTextArg.textContent('style', 'max-width:35%');
     
     let tituloArg = document.createElement('h5');
     tituloArg.classList.add('card-title');
@@ -512,7 +514,8 @@ function messi () {
     imgBar.setAttribute('alt', 'messi');
     
     let divTextBar = document.createElement('div');
-    divTextBar.classList.add('card-img-overlay');
+    divTextBar.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
+    divTextBar.textContent('style', 'max-width:35%');
     
     let tituloBar = document.createElement('h5');
     tituloBar.classList.add('card-title');
