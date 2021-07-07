@@ -1,4 +1,5 @@
-let $mensaje =document.querySelector('#mensaje');
+let $mensajeOnline =document.querySelector('#mensaje-online');
+let $mensajeOffline =document.querySelector('#mensaje-offline');
 let $inicio = document.querySelector('#inicio');
 let $ranking = document.querySelector('#ranking');
 let $messi = document.querySelector('#messi');
@@ -427,21 +428,24 @@ function ranking () {
     
 }
 
-function crearMensaje (){
-    
-    let conexion = document.getElementsByClassName('offline');
+function crearMensajeOnline (){
     
     let mensaje = document.createElement('p');
-    if(conexion.length > 0){
-        mensaje.classList.add('alert-danger', 'm-0');
-        mensaje.textContent = 'No me la conteiner que estoy offline!';
-    }else{
         mensaje.classList.add('alert-success', 'm-0');
         mensaje.textContent = 'Estamos Online papa!';
-    }
     
-    $mensaje.appendChild(mensaje);
+    $mensajeOnline.appendChild(mensaje);
 }
+
+function crearMensajeOffline (){
+    
+    let mensaje = document.createElement('p');
+        mensaje.classList.add('alert-danger', 'm-0');
+        mensaje.textContent = 'No me la conteiner que estoy offline!';
+
+    $mensajeOffline.appendChild(mensaje);
+}
+
 setInterval(mensaje, 5000);
 
 function mensajeTime() {
