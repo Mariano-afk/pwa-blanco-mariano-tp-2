@@ -4,9 +4,14 @@ let $messi = document.querySelector('#messi');
 
 function pantallaInicio () {
     
-    let borrar = document.getElementById("ranking");
-    while (borrar.firstChild) {
-    borrar.removeChild(borrar.firstChild);
+    let borrarranking = document.getElementById("ranking");
+    while (borrarranking.firstChild) {
+    borrarranking.removeChild(borrarranking.firstChild);
+    }
+    
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
     }
     
     let sectionInicio = document.createElement('section');
@@ -61,9 +66,14 @@ function pantallaInicio () {
 function ranking () {
     
     
-    let borrar = document.getElementById("inicio");
-    while (borrar.firstChild) {
-    borrar.removeChild(borrar.firstChild);
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
+    }
+    
+    let borrarranking = document.getElementById("ranking");
+    while (borrarranking.firstChild) {
+    borrarranking.removeChild(borrarranking.firstChild);
     }
     
     
