@@ -1,3 +1,4 @@
+let $mensaje =document.querySelector('#mensaje');
 let $inicio = document.querySelector('#inicio');
 let $ranking = document.querySelector('#ranking');
 let $messi = document.querySelector('#messi');
@@ -17,7 +18,7 @@ function pantallaInicio () {
     let sectionInicio = document.createElement('section');
     sectionInicio.classList.add('text-center', 'pt-5');
     
-    let tituloInicio = document.createElement('h2');
+    let tituloInicio = document.createElement('h1');
     tituloInicio.classList.add('pb-4');
     tituloInicio.textContent = "NOTI FÚTBOL";
     
@@ -80,9 +81,9 @@ function ranking () {
     let section = document.createElement('section');
     section.classList.add('text-center', 'pt-5');
     
-    let h2 = document.createElement('h2');
-    h2.classList.add('pb-4');
-    h2.textContent = 'Ranking FIFA';
+    let titulo = document.createElement('h1');
+    titulo.classList.add('pb-4');
+    titulo.textContent = 'Ranking FIFA';
     
     //---------------------------------------------------------
     
@@ -405,7 +406,7 @@ function ranking () {
     pimg10.append(img10);
     div10.append(pimg10);
     div10.append(puntos10);
-    section.appendChild(h2);
+    section.appendChild(titulo);
     section.appendChild(divDesc);
     section.appendChild(div1);
     section.appendChild(div2);
@@ -426,5 +427,21 @@ function ranking () {
     
 }
 
+function crearMensaje (){
+    let mensaje = document.createElement('p');
+    if(document.querySelector('offline') = true){
+        mensaje.classList.add('alert-danger', 'm-0');
+        mensaje.textContent = 'No me la conteiner que estoy offline!';
+    }else{
+        mensaje.classList.add('alert-success', 'm-0');
+        mensaje.textContent = 'Estamos Online papa!';
+    }
+}
+setInterval(mensaje, 5000);
 
+function mensajeTime() {
+  const d = '';
+  document.getElementById("mensaje").innerHTML ='';
+}
+crearMensaje();
 pantallaInicio();
