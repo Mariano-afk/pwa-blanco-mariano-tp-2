@@ -452,5 +452,6 @@ function mensajeTime() {
   const d = '';
   document.getElementById("mensaje").innerHTML ='';
 }
-crearMensaje();
+crearMensajeOnline();
+crearMensajeOffline();
 pantallaInicio();
