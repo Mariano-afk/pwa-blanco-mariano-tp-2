@@ -52,7 +52,7 @@ function pantallaInicio () {
     
     let p2 = document.createElement('p');
     p2.classList.add('card-text');
-    p2.textContent = 'En esta maravillosa app podras navegar para ver como esta el ranking fifa actual y los numeros del mejor jugador de la historia mundial, galactica y universal, asi es, Liones Andres Messi. Tene en cuenta que si al recargar la pagina no podes ver nuestras imagenes salvo nuestro maravillo y para nada hecho en paint como un horrendo plagio al escudo de la selección es porque no tenes datos crack, bueno eso o estas tramando un plan malevolo para desaprobarnos, en fin espero que disfrutes de la app.';
+    p2.textContent = 'En esta maravillosa app podras navegar para ver como esta el ranking fifa actual y los numeros del mejor jugador de la historia mundial, galactica y universal, asi es, Liones Andres Messi. Tene en cuenta que si al recargar la pagina no podes ver nuestras imagenes salvo nuestro maravillo logo, para nada hecho en paint como un horrendo plagio al escudo de la selección es porque no tenes datos crack, bueno eso o estas tramando un plan malevolo para desaprobarnos, en fin espero que disfrutes de la app.';
     
     div4.appendChild(imgInicio);
     div5.appendChild(p1);
