@@ -13,10 +13,33 @@
   <body>
     <div class="fixed-top">
     <h1 class="alert-danger m-0">No me la conteiner que estoy offline!</h1>
-          
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">NOTI FUTBOL</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" onclick="pantallaInicio();">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick= ranking();>Ranking FIFA</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" onclick= messi();>Messi</a>
+      </li>
+    </ul>
+  </div>
+</nav> 
         <div class="text-center">
           <p><img src="img/Messi-offline-bar.jpg" class="d-block w-100" alt="Messi decepcionado"></p>
       </div>
+        <main class="pt-5 mt-5">
+    <div id="inicio"></div>
+    <div id="ranking"></div>
+    <div id="messi"></div>
+    </main>
 </div>
       
 
