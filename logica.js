@@ -450,7 +450,8 @@ setInterval(mensajeTime, 5000);
 
 function mensajeTime() {
   const d = '';
-  document.getElementById("mensaje").innerHTML ='';
+  document.getElementById("mensaje-online").innerHTML ='';
+  document.getElementById("mensaje-offline").innerHTML ='';
 }
 crearMensajeOnline();
 crearMensajeOffline();
