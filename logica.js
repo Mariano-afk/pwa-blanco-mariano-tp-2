@@ -430,7 +430,7 @@ function messi () {
     
 
     let divTotal = document.createElement('div');
-    divTotal.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
+    divTotal.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0', 'pb-4');
     
     let imgTotal = document.createElement('img');
     imgTotal.setAttribute('src', 'img/Messi.jpg');
@@ -441,7 +441,7 @@ function messi () {
     divTextTotal.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloTotal = document.createElement('h5');
-    tituloTotal.classList.add('card-title');
+    tituloTotal.classList.add('card-title', 'pt-3');
     tituloTotal.textContent = 'Total';
     
     let golesTotal = document.createElement('p');
@@ -499,7 +499,7 @@ function messi () {
     //---------------------------------------------------------
     
     let divArg = document.createElement('div');
-    divArg.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
+    divArg.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0', 'pb-4');
     
     let imgArg = document.createElement('img');
     imgArg.setAttribute('src', 'img/Messi-arg.jpg');
@@ -510,7 +510,7 @@ function messi () {
     divTextArg.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloArg = document.createElement('h5');
-    tituloArg.classList.add('card-title');
+    tituloArg.classList.add('card-title', 'pt-3');
     tituloArg.textContent = 'Argentina';
     
     let golesArg = document.createElement('p');
@@ -568,7 +568,7 @@ function messi () {
     //---------------------------------------------------------
     
     let divBar = document.createElement('div');
-    divBar.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
+    divBar.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0', 'pb-4');
     
     let imgBar = document.createElement('img');
     imgBar.setAttribute('src', 'img/Messi-bar.jpg');
@@ -579,7 +579,7 @@ function messi () {
     divTextBar.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloBar = document.createElement('h5');
-    tituloBar.classList.add('card-title');
+    tituloBar.classList.add('card-title', 'pt-3');
     tituloBar.textContent = 'Barcelona';
     
     let golesBar = document.createElement('p');
