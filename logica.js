@@ -4,6 +4,11 @@ let $messi = document.querySelector('#messi');
 
 function pantallaInicio () {
     
+    let borrarmessi = document.getElementById("messi");
+    while (borrarranking.firstChild) {
+    borrarmessi.removeChild(borrarmessi.firstChild);
+    }
+    
     let borrarranking = document.getElementById("ranking");
     while (borrarranking.firstChild) {
     borrarranking.removeChild(borrarranking.firstChild);
@@ -66,14 +71,19 @@ function pantallaInicio () {
 function ranking () {
     
     
-    let borrarinicio = document.getElementById("inicio");
-    while (borrarinicio.firstChild) {
-    borrarinicio.removeChild(borrarinicio.firstChild);
+    let borrarmessi = document.getElementById("messi");
+    while (borrarranking.firstChild) {
+    borrarmessi.removeChild(borrarmessi.firstChild);
     }
     
     let borrarranking = document.getElementById("ranking");
     while (borrarranking.firstChild) {
     borrarranking.removeChild(borrarranking.firstChild);
+    }
+    
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
     }
     
     
@@ -427,6 +437,22 @@ function ranking () {
 }
 
 function messi () {
+    
+    
+    let borrarmessi = document.getElementById("messi");
+    while (borrarranking.firstChild) {
+    borrarmessi.removeChild(borrarmessi.firstChild);
+    }
+    
+    let borrarranking = document.getElementById("ranking");
+    while (borrarranking.firstChild) {
+    borrarranking.removeChild(borrarranking.firstChild);
+    }
+    
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
+    }
     
 
     let divTotal = document.createElement('div');
