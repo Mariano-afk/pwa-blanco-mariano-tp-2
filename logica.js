@@ -4,14 +4,14 @@ let $messi = document.querySelector('#messi');
 
 function pantallaInicio () {
     
-    let borrarmessi = document.getElementById("messi");
-    while (borrarranking.firstChild) {
-    borrarmessi.removeChild(borrarmessi.firstChild);
-    }
-    
     let borrarranking = document.getElementById("ranking");
     while (borrarranking.firstChild) {
     borrarranking.removeChild(borrarranking.firstChild);
+    }
+    
+    let borrarMessi = document.getElementById("messi");
+    while (borrarMessi.firstChild) {
+    borrarMessi.removeChild(borrarMessi.firstChild);
     }
     
     let borrarinicio = document.getElementById("inicio");
@@ -52,7 +52,7 @@ function pantallaInicio () {
     
     let p2 = document.createElement('p');
     p2.classList.add('card-text');
-    p2.textContent = 'En esta maravillosa app podras navegar para ver como esta el ranking fifa actual y los numeros del mejor jugador de la historia mundial, galactica y universal, asi es, Liones Andres Messi.';
+    p2.textContent = 'En esta maravillosa app podras navegar para ver como esta el ranking fifa actual y los numeros del mejor jugador de la historia mundial, galactica y universal, asi es, Liones Andres Messi. Tene en cuenta que si al recargar la pagina no podes ver nuestras imagenes salvo nuestro maravillo y para nada hecho en paint como un horrendo plagio al escudo de la selección es porque no tenes datos crack, bueno eso o estas tramando un plan malevolo para desaprobarnos, en fin espero que disfrutes de la app.';
     
     div4.appendChild(imgInicio);
     div5.appendChild(p1);
@@ -71,9 +71,9 @@ function pantallaInicio () {
 function ranking () {
     
     
-    let borrarmessi = document.getElementById("messi");
-    while (borrarranking.firstChild) {
-    borrarmessi.removeChild(borrarmessi.firstChild);
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
     }
     
     let borrarranking = document.getElementById("ranking");
@@ -81,9 +81,9 @@ function ranking () {
     borrarranking.removeChild(borrarranking.firstChild);
     }
     
-    let borrarinicio = document.getElementById("inicio");
-    while (borrarinicio.firstChild) {
-    borrarinicio.removeChild(borrarinicio.firstChild);
+    let borrarMessi = document.getElementById("messi");
+    while (borrarMessi.firstChild) {
+    borrarMessi.removeChild(borrarMessi.firstChild);
     }
     
     
@@ -438,10 +438,10 @@ function ranking () {
 
 function messi () {
     
-    
-    let borrarmessi = document.getElementById("messi");
-    while (borrarranking.firstChild) {
-    borrarmessi.removeChild(borrarmessi.firstChild);
+
+    let borrarinicio = document.getElementById("inicio");
+    while (borrarinicio.firstChild) {
+    borrarinicio.removeChild(borrarinicio.firstChild);
     }
     
     let borrarranking = document.getElementById("ranking");
@@ -449,12 +449,12 @@ function messi () {
     borrarranking.removeChild(borrarranking.firstChild);
     }
     
-    let borrarinicio = document.getElementById("inicio");
-    while (borrarinicio.firstChild) {
-    borrarinicio.removeChild(borrarinicio.firstChild);
+    let borrarMessi = document.getElementById("messi");
+    while (borrarMessi.firstChild) {
+    borrarMessi.removeChild(borrarMessi.firstChild);
     }
     
-
+    
     let divTotal = document.createElement('div');
     divTotal.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0', 'pb-4');
     
