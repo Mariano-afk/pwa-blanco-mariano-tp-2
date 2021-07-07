@@ -449,6 +449,10 @@ function messi () {
     golesTotal.classList.add('card-text');
     golesTotal.textContent = 'Goles: 748';
     
+    let promGolTotalTitulo = document.createElement('p');
+    promGolTotalTitulo.classList.add('card-text');
+    promGolTotalTitulo.textContent = 'Promedio de gol:';
+    
     let promGolTotal = document.createElement('div');
     promGolTotal.classList.add('progress');
     
@@ -459,11 +463,15 @@ function messi () {
     barraGolTotal.setAttribute('aria-valuenow', '0.81');
     barraGolTotal.setAttribute('aria-valuemin', '0');
     barraGolTotal.setAttribute('aria-valuemax', '100');
-    barraGolTotal.textContent = 'Promedio de gol: 0.81';
+    barraGolTotal.textContent = '0.81';
     
     let asistenciasTotal = document.createElement('p');
     asistenciasTotal.classList.add('card-text');
-    asistenciasTotal.textContent = 'Asistencias: 315';
+    asistenciasTotal.textContent = 'Promedio de asistencias:';
+    
+    let promAsistenciasTotalTitulo = document.createElement('p');
+    promAsistenciasTotalTitulo.classList.add('card-text');
+    promAsistenciasTotalTitulo.textContent = 'Promedio de asistencias:';
     
     let promAsistenciasTotal = document.createElement('div');
     promAsistenciasTotal.classList.add('progress');
@@ -475,7 +483,7 @@ function messi () {
     barraAsistenciasTotal.setAttribute('aria-valuenow', '0.34');
     barraAsistenciasTotal.setAttribute('aria-valuemin', '0');
     barraAsistenciasTotal.setAttribute('aria-valuemax', '100');
-    barraAsistenciasTotal.textContent = 'Promedio de asistencias: 0.34';
+    barraAsistenciasTotal.textContent = '0.34';
     
     let partidosTotal = document.createElement('p');
     partidosTotal.classList.add('card-text');
@@ -511,6 +519,10 @@ function messi () {
     golesArg.classList.add('card-text');
     golesArg.textContent = 'Goles: 76';
     
+    let promGolArgTitulo = document.createElement('p');
+    promGolArgTitulo.classList.add('card-text');
+    promGolArgTitulo.textContent = 'Promedio de gol:';
+    
     let promGolArg = document.createElement('div');
     promGolArg.classList.add('progress');
     
@@ -521,11 +533,15 @@ function messi () {
     barraGolArg.setAttribute('aria-valuenow', '0.51');
     barraGolArg.setAttribute('aria-valuemin', '0');
     barraGolArg.setAttribute('aria-valuemax', '100');
-    barraGolArg.textContent = 'Promedio de gol: 0.51';
+    barraGolArg.textContent = '0.51';
     
     let asistenciasArg = document.createElement('p');
     asistenciasArg.classList.add('card-text');
     asistenciasArg.textContent = 'Asistencias: 47';
+    
+    let promAsistenciasArgTitulo = document.createElement('p');
+    promAsistenciasArgTitulo.classList.add('card-text');
+    promAsistenciasArgTitulo.textContent = 'Promedio de asistencias:';
     
     let promAsistenciasArg = document.createElement('div');
     promAsistenciasArg.classList.add('progress');
@@ -537,7 +553,7 @@ function messi () {
     barraAsistenciasArg.setAttribute('aria-valuenow', '0.31');
     barraAsistenciasArg.setAttribute('aria-valuemin', '0');
     barraAsistenciasArg.setAttribute('aria-valuemax', '100');
-    barraAsistenciasArg.textContent = 'Promedio de asistencias: 0.31';
+    barraAsistenciasArg.textContent = '0.31';
     
     let partidosArg = document.createElement('p');
     partidosArg.classList.add('card-text');
@@ -573,6 +589,10 @@ function messi () {
     golesBar.classList.add('card-text');
     golesBar.textContent = 'Goles: 672';
     
+    let promGolBarTitulo = document.createElement('p');
+    promGolBarTitulo.classList.add('card-text');
+    promGolBarTitulo.textContent = 'Promedio de gol:';
+    
     let promGolBar = document.createElement('div');
     promGolBar.classList.add('progress');
     
@@ -583,11 +603,15 @@ function messi () {
     barraGolBar.setAttribute('aria-valuenow', '0.86');
     barraGolBar.setAttribute('aria-valuemin', '0');
     barraGolBar.setAttribute('aria-valuemax', '100');
-    barraGolBar.textContent = 'Promedio de gol: 0.86';
+    barraGolBar.textContent = '0.86';
     
     let asistenciasBar = document.createElement('p');
     asistenciasBar.classList.add('card-text');
     asistenciasBar.textContent = 'Asistencias: 268';
+    
+    let promAsistenciasBarTitulo = document.createElement('p');
+    promAsistenciasBarTitulo.classList.add('card-text');
+    promAsistenciasBarTitulo.textContent = 'Promedio de asistencias:';
     
     let promAsistenciasBar = document.createElement('div');
     promAsistenciasBar.classList.add('progress');
@@ -599,7 +623,7 @@ function messi () {
     barraAsistenciasBar.setAttribute('aria-valuenow', '0.34');
     barraAsistenciasBar.setAttribute('aria-valuemin', '0');
     barraAsistenciasBar.setAttribute('aria-valuemax', '100');
-    barraAsistenciasBar.textContent = 'Promedio de asistencias: 0.34';
+    barraAsistenciasBar.textContent = '0.34';
     
     let partidosBar = document.createElement('p');
     partidosBar.classList.add('card-text');
@@ -617,9 +641,11 @@ function messi () {
     
     divTextTotal.appendChild(tituloTotal);
     divTextTotal.appendChild(golesTotal);
+    divTextTotal.appendChild(promGolTotalTitulo);
     promGolTotal.appendChild(barraGolTotal);
     divTextTotal.appendChild(promGolTotal);
     divTextTotal.appendChild(asistenciasTotal);
+    divTextTotal.appendChild(promAsistenciasTotalTitulo);
     promAsistenciasTotal.appendChild(barraAsistenciasTotal);
     divTextTotal.appendChild(promAsistenciasTotal);
     divTextTotal.appendChild(partidosTotal);
@@ -632,9 +658,11 @@ function messi () {
     
     divTextArg.appendChild(tituloArg);
     divTextArg.appendChild(golesArg);
+    divTextArg.appendChild(promGolArgTitulo);
     promGolArg.appendChild(barraGolArg);
     divTextArg.appendChild(promGolArg);
     divTextArg.appendChild(asistenciasArg);
+    divTextArg.appendChild(promAsistenciasArgTitulo);
     promAsistenciasArg.appendChild(barraAsistenciasArg);
     divTextArg.appendChild(promAsistenciasArg);
     divTextArg.appendChild(partidosArg);
@@ -647,9 +675,11 @@ function messi () {
     
     divTextBar.appendChild(tituloBar);
     divTextBar.appendChild(golesBar);
+    divTextBar.appendChild(promGolBarTitulo);
     promGolBar.appendChild(barraGolBar);
     divTextBar.appendChild(promGolBar);
     divTextBar.appendChild(asistenciasBar);
+    divTextBar.appendChild(promAsistenciasBarTitulo);
     promAsistenciasBar.appendChild(barraAsistenciasBar);
     divTextBar.appendChild(promAsistenciasBar);
     divTextBar.appendChild(partidosBar);
