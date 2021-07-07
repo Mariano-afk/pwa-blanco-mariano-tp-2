@@ -428,8 +428,11 @@ function ranking () {
 }
 
 function crearMensaje (){
+    
+    let conexion = document.getElementsByClassName('offline');
+    
     let mensaje = document.createElement('p');
-    if(document.querySelector('offline') = true){
+    if(conexion.length > 0){
         mensaje.classList.add('alert-danger', 'm-0');
         mensaje.textContent = 'No me la conteiner que estoy offline!';
     }else{
@@ -443,5 +446,4 @@ function mensajeTime() {
   const d = '';
   document.getElementById("mensaje").innerHTML ='';
 }
-crearMensaje();
 pantallaInicio();
