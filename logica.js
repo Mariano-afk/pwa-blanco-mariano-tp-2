@@ -439,6 +439,8 @@ function crearMensaje (){
         mensaje.classList.add('alert-success', 'm-0');
         mensaje.textContent = 'Estamos Online papa!';
     }
+    
+    $mensaje.appendChild(mensaje);
 }
 setInterval(mensaje, 5000);
 
