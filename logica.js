@@ -430,16 +430,15 @@ function messi () {
     
 
     let divTotal = document.createElement('div');
-    divTotal.classList.add('card', 'bg-dark', 'text-white', 'm-auto');
-    divTotal.setAttribute('style', 'max-width: 1000px');
+    divTotal.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
     
     let imgTotal = document.createElement('img');
     imgTotal.setAttribute('src', 'img/Messi.jpg');
     imgTotal.setAttribute('alt', 'messi');
+    imgTotal.classList.add('col-lg-8', 'img-fluid', 'p-0');
         
     let divTextTotal = document.createElement('div');
-    divTextTotal.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
-    divTextTotal.setAttribute('style', 'max-width:35%');
+    divTextTotal.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloTotal = document.createElement('h5');
     tituloTotal.classList.add('card-title');
@@ -500,20 +499,19 @@ function messi () {
     //---------------------------------------------------------
     
     let divArg = document.createElement('div');
-    divArg.classList.add('card', 'bg-dark', 'text-white', 'm-auto');
-    divArg.setAttribute('style', 'max-width: 1000px');
+    divArg.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
     
     let imgArg = document.createElement('img');
     imgArg.setAttribute('src', 'img/Messi-arg.jpg');
     imgArg.setAttribute('alt', 'messi');
+    imgArg.classList.add('col-lg-8', 'img-fluid', 'p-0');
         
     let divTextArg = document.createElement('div');
-    divTextArg.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
-    divTextArg.setAttribute('style', 'max-width:35%');
+    divTextArg.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloArg = document.createElement('h5');
     tituloArg.classList.add('card-title');
-    tituloArg.textContent = 'Total';
+    tituloArg.textContent = 'Argentina';
     
     let golesArg = document.createElement('p');
     golesArg.classList.add('card-text');
@@ -570,20 +568,19 @@ function messi () {
     //---------------------------------------------------------
     
     let divBar = document.createElement('div');
-    divBar.classList.add('card', 'bg-dark', 'text-white', 'm-auto');
-    divBar.setAttribute('style', 'max-width: 1000px');
+    divBar.classList.add('card-body', 'row', 'bg-dark', 'text-white', 'm-auto', 'p-0');
     
     let imgBar = document.createElement('img');
     imgBar.setAttribute('src', 'img/Messi-bar.jpg');
     imgBar.setAttribute('alt', 'messi');
+    imgBar.classList.add('col-lg-8', 'img-fluid', 'p-0');
     
     let divTextBar = document.createElement('div');
-    divTextBar.classList.add('card-img-overlay', 'bg-dark', 'bg-gradient');
-    divTextBar.setAttribute('style', 'max-width:35%');
+    divTextBar.classList.add('col-lg-4', 'bg-dark', 'bg-gradient');
     
     let tituloBar = document.createElement('h5');
     tituloBar.classList.add('card-title');
-    tituloBar.textContent = 'Total';
+    tituloBar.textContent = 'Barcelona';
     
     let golesBar = document.createElement('p');
     golesBar.classList.add('card-text');
