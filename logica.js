@@ -466,8 +466,8 @@ function messi () {
     barraGolTotal.textContent = '0.81';
     
     let asistenciasTotal = document.createElement('p');
-    asistenciasTotal.classList.add('card-text');
-    asistenciasTotal.textContent = 'Promedio de asistencias:';
+    asistenciasTotal.classList.add('card-text', 'pt-4');
+    asistenciasTotal.textContent = 'Asistencias: 315';
     
     let promAsistenciasTotalTitulo = document.createElement('p');
     promAsistenciasTotalTitulo.classList.add('card-text');
@@ -486,7 +486,7 @@ function messi () {
     barraAsistenciasTotal.textContent = '0.34';
     
     let partidosTotal = document.createElement('p');
-    partidosTotal.classList.add('card-text');
+    partidosTotal.classList.add('card-text', 'pt-4');
     partidosTotal.textContent = 'Partidos: 928';
     
     let titulosTotal = document.createElement('p');
@@ -536,7 +536,7 @@ function messi () {
     barraGolArg.textContent = '0.51';
     
     let asistenciasArg = document.createElement('p');
-    asistenciasArg.classList.add('card-text');
+    asistenciasArg.classList.add('card-text', 'pt-4');
     asistenciasArg.textContent = 'Asistencias: 47';
     
     let promAsistenciasArgTitulo = document.createElement('p');
@@ -556,7 +556,7 @@ function messi () {
     barraAsistenciasArg.textContent = '0.31';
     
     let partidosArg = document.createElement('p');
-    partidosArg.classList.add('card-text');
+    partidosArg.classList.add('card-text', 'pt-4');
     partidosArg.textContent = 'Partidos: 150';
     
     let titulosArg = document.createElement('p');
@@ -606,7 +606,7 @@ function messi () {
     barraGolBar.textContent = '0.86';
     
     let asistenciasBar = document.createElement('p');
-    asistenciasBar.classList.add('card-text');
+    asistenciasBar.classList.add('card-text', 'pt-4');
     asistenciasBar.textContent = 'Asistencias: 268';
     
     let promAsistenciasBarTitulo = document.createElement('p');
@@ -626,7 +626,7 @@ function messi () {
     barraAsistenciasBar.textContent = '0.34';
     
     let partidosBar = document.createElement('p');
-    partidosBar.classList.add('card-text');
+    partidosBar.classList.add('card-text', 'pt-4');
     partidosBar.textContent = 'Partidos: 778';
     
     let titulosBar = document.createElement('p');
