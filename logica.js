@@ -1,5 +1,5 @@
-let $mensajeOnline =document.querySelector('#mensaje-online');
-let $mensajeOffline =document.querySelector('#mensaje-offline');
+let $mensajeOnline = document.querySelector('#mensaje-online');
+let $mensajeOffline = document.querySelector('#mensaje-offline');
 let $inicio = document.querySelector('#inicio');
 let $ranking = document.querySelector('#ranking');
 let $messi = document.querySelector('#messi');
