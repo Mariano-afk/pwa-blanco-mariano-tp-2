@@ -9,9 +9,9 @@ const precache = [
   './logica.js',
   './img/Messi-offline-bar.jpg',
   './img/favicon.png',
-  './img/messi.jpg',
-  './img/messi-arg.jpg',
-  './img/messi-bar.jpg'
+  './img/Messi.jpg',
+  './img/Messi-arg.jpg',
+  './img/Messi-bar.jpg'
 ];
 
 
