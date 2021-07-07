@@ -5,9 +5,8 @@ const cacheName = 'cache-version-1';
 const precache = [
   './js/register-sw.js',
   './index.html',
-  './ranking.html',
-  './Messi.html',
   './offline.html',
+  './logica.js',
   './img/Messi-offline-bar.jpg'
 ];
 
