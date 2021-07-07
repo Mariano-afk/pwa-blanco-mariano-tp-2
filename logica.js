@@ -635,8 +635,8 @@ function messi () {
     promGolArg.appendChild(barraGolArg);
     divTextArg.appendChild(promGolArg);
     divTextArg.appendChild(asistenciasArg);
-    divTextArg.appendChild(asistenciasArg);
     promAsistenciasArg.appendChild(barraAsistenciasArg);
+    divTextArg.appendChild(promAsistenciasArg);
     divTextArg.appendChild(partidosArg);
     divTextArg.appendChild(titulosArg);
     divTextArg.appendChild(premiosArg);
