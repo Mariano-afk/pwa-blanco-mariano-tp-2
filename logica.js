@@ -446,7 +446,7 @@ function crearMensajeOffline (){
     $mensajeOffline.appendChild(mensaje);
 }
 
-setInterval(mensaje, 5000);
+setInterval(mensajeTime, 5000);
 
 function mensajeTime() {
   const d = '';
