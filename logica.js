@@ -426,7 +426,176 @@ function ranking () {
     
 }
 
-
+function messi () {
+    
+    
+    let divTotal document.createElement('div');
+    divTotal.classList.add('card', 'bg-dark', 'text-white');
+    
+    let imgTotal document.createElement('img');
+    imgTotal.setAttribute('src', 'img/messi.jpg');
+    imgTotal.setAttribute('alt', 'messi');
+        
+    let divTextTotal document.createElement('div');
+    divTextTotal.classList.add('card-img-overlay');
+    
+    let tituloTotal document.createElement('h5');
+    tituloTotal.classList.add('card-title');
+    tituloTotal.textContent = 'Total';
+    
+    let golesTotal document.createElement('p');
+    golesTotal.classList.add('card-text');
+    golesTotal.textContent = 'Goles: 748';
+    
+    let asistenciasTotal document.createElement('p');
+    asistenciasTotal.classList.add('card-text');
+    asistenciasTotal.textContent = 'Asistencias: 315';
+    
+    let partidosTotal document.createElement('p');
+    partidosTotal.classList.add('card-text');
+    partidosTotal.textContent = 'Partidos: 928';
+    
+    let titulosTotal document.createElement('p');
+    titulosTotal.classList.add('card-text');
+    titulosTotal.textContent = 'Titulos: 37';
+    
+    let premiosTotal document.createElement('p');
+    premiosTotal.classList.add('card-text');
+    premiosTotal.textContent = 'Premios: 78';
+    
+    //---------------------------------------------------------
+    
+    let divArg document.createElement('div');
+    divArg.classList.add('card', 'bg-dark', 'text-white');
+    
+    let imgArg document.createElement('img');
+    imgArg.setAttribute('src', 'img/messi-arg.jpg');
+    imgArg.setAttribute('alt', 'messi');
+        
+    let divTextArg document.createElement('div');A
+    divTextArg.classList.add('card-img-overlay');
+    
+    let tituloArg document.createElement('h5');
+    tituloArg.classList.add('card-title');
+    tituloArg.textContent = 'Total';
+    
+    let golesArg document.createElement('p');
+    golesArg.classList.add('card-text');
+    golesArg.textContent = 'Goles: 76';
+    
+    let asistenciasArg document.createElement('p');
+    asistenciasArg.classList.add('card-text');
+    asistenciasArg.textContent = 'Asistencias: 47';
+    
+    let partidosArg document.createElement('p');
+    partidosArg.classList.add('card-text');
+    partidosArg.textContent = 'Partidos: 150';
+    
+    let titulosArg document.createElement('p');
+    titulosArg.classList.add('card-text');
+    titulosArg.textContent = 'Titulos: 2';
+    
+    let premiosArg document.createElement('p');
+    premiosArg.classList.add('card-text');
+    premiosArg.textContent = 'Premios: 72';
+    
+    //---------------------------------------------------------
+    
+    let divBar document.createElement('div');
+    divBar.classList.add('card', 'bg-dark', 'text-white');
+    
+    let imgBar document.createElement('img');
+    imgBar.setAttribute('src', 'img/messi-bar.jpg');
+    imgBar.setAttribute('alt', 'messi');
+    
+    let divTextBar document.createElement('div');
+    divTextBar.classList.add('card-img-overlay');
+    
+    let tituloBar document.createElement('h5');
+    tituloBar.classList.add('card-title');
+    tituloBar.textContent = 'Total';
+    
+    let golesBar document.createElement('p');
+    golesBar.classList.add('card-text');
+    golesBar.textContent = 'Goles: 672';
+    
+    let asistenciasBar document.createElement('p');
+    asistenciasBar.classList.add('card-text');
+    asistenciasBar.textContent = 'Asistencias: 268';
+    
+    let partidosBar document.createElement('p');
+    partidosBar.classList.add('card-text');
+    partidosBar.textContent = 'Partidos: 778';
+    
+    let titulosBar document.createElement('p');
+    titulosBar.classList.add('card-text');
+    titulosBar.textContent = 'Titulos: 35';
+    
+    let premiosBar document.createElement('p');
+    premiosBar.classList.add('card-text');
+    premiosBar.textContent = 'Premios: 78';
+    
+    //---------------------------------------------------------
+    
+    divTextTotal.appendChild(tituloTotal);
+    divTextTotal.appendChild(golesTotal);
+    divTextTotal.appendChild(asistenciasTotal);
+    divTextTotal.appendChild(partidosTotal);
+    divTextTotal.appendChild(titulosTotal);
+    divTextTotal.appendChild(premiosTotal);
+    divTotal.appendChild(imgTotal);
+    divTotal.appendChild(divTextTotal);
+    
+    //---------------------------------------------------------
+    
+    divTextArg.appendChild(tituloArg);
+    divTextArg.appendChild(golesArg);
+    divTextArg.appendChild(asistenciasArg);
+    divTextArg.appendChild(partidosArg);
+    divTextArg.appendChild(titulosArg);
+    divTextArg.appendChild(premiosArg);
+    divArg.appendChild(imgArg);
+    divArg.appendChild(divTextArg);    
+    
+    //---------------------------------------------------------
+    
+    divTextBar.appendChild(tituloBar);
+    divTextBar.appendChild(golesBar);
+    divTextBar.appendChild(asistenciasBar);
+    divTextBar.appendChild(partidosBar);
+    divTextBar.appendChild(titulosBar);
+    divTextBar.appendChild(premiosBar);
+    divBar.appendChild(imgBar);
+    divBar.appendChild(divTextBar);    
+    
+    //---------------------------------------------------------
+    
+    $messi.appendChild(divTotal);
+    $messi.appendChild(divArg);
+    $messi.appendChild(divBar);
+}
 
 
 pantallaInicio();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="card bg-dark text-white">
+  <img src="..." class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
