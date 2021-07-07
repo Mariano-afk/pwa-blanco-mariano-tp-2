@@ -505,7 +505,7 @@ function messi () {
     
     let divBar = document.createElement('div');
     divBar.classList.add('card', 'bg-dark', 'text-white', 'm-auto');
-    divBra.setAttribute('style', 'max-width: 1000px');
+    divBar.setAttribute('style', 'max-width: 1000px');
     
     let imgBar = document.createElement('img');
     imgBar.setAttribute('src', 'img/Messi-bar.jpg');
