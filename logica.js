@@ -633,10 +633,10 @@ function messi () {
     divTextArg.appendChild(tituloArg);
     divTextArg.appendChild(golesArg);
     promGolArg.appendChild(barraGolArg);
-    divTextTotal.appendChild(promGolArg);
+    divTextArg.appendChild(promGolArg);
     divTextArg.appendChild(asistenciasArg);
     divTextArg.appendChild(asistenciasArg);
-    promAsistenciasTotal.appendChild(barraAsistenciasArg);
+    promAsistenciasArg.appendChild(barraAsistenciasArg);
     divTextArg.appendChild(partidosArg);
     divTextArg.appendChild(titulosArg);
     divTextArg.appendChild(premiosArg);
@@ -648,10 +648,10 @@ function messi () {
     divTextBar.appendChild(tituloBar);
     divTextBar.appendChild(golesBar);
     promGolBar.appendChild(barraGolBar);
-    divTextTotal.appendChild(promGolBar);
+    divTextBar.appendChild(promGolBar);
     divTextBar.appendChild(asistenciasBar);
     promAsistenciasBar.appendChild(barraAsistenciasBar);
-    divTextTotal.appendChild(promAsistenciasBar);
+    divTextBar.appendChild(promAsistenciasBar);
     divTextBar.appendChild(partidosBar);
     divTextBar.appendChild(titulosBar);
     divTextBar.appendChild(premiosBar);
