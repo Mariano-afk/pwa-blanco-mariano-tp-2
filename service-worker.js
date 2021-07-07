@@ -9,7 +9,10 @@ const precache = [
   './mensaje-offline.js',
   './logica.js',
   './img/Messi-offline-bar.jpg',
-  './img/favicon.png'
+  './img/favicon.png',
+  './img/messi.jpg',
+  './img/messi-arg.jpg',
+  './img/messi-bar.jpg',
 ];
 
 
