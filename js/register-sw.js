@@ -12,7 +12,6 @@ else {
 // Event Listener para Offline/ Online Status
 window.addEventListener('offline', event => {
   document.querySelector('body').classList.add('offline');
-  main.innerHTML = "No obtener los partidos! La aplicacion esta offline!"
 });
 
 window.addEventListener('online', event => {
