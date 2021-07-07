@@ -435,7 +435,7 @@ function messi () {
     let imgTotal = document.createElement('img');
     imgTotal.classList.add('rounded', 'mx-auto', 'd-block');
     imgTotal.setAttribute('src', 'img/messi.jpg');
-    imgTotal.setAttribute('alt', 'messi');
+    imgTotal.setAttribute('alt', 'Messi');
         
     let divTextTotal = document.createElement('div');
     divTextTotal.classList.add('card-img-overlay');
@@ -471,7 +471,7 @@ function messi () {
     
     let imgArg = document.createElement('img');
     imgArg.classList.add('rounded', 'mx-auto', 'd-block');
-    imgArg.setAttribute('src', 'img/messi-arg.jpg');
+    imgArg.setAttribute('src', 'img/Messi-arg.jpg');
     imgArg.setAttribute('alt', 'messi');
         
     let divTextArg = document.createElement('div');
@@ -508,7 +508,7 @@ function messi () {
     
     let imgBar = document.createElement('img');
     imgBar.classList.add('rounded', 'mx-auto', 'd-block');
-    imgBar.setAttribute('src', 'img/messi-bar.jpg');
+    imgBar.setAttribute('src', 'img/Messi-bar.jpg');
     imgBar.setAttribute('alt', 'messi');
     
     let divTextBar = document.createElement('div');
