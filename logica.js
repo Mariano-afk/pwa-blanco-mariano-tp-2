@@ -472,7 +472,7 @@ function messi () {
     imgArg.setAttribute('src', 'img/messi-arg.jpg');
     imgArg.setAttribute('alt', 'messi');
         
-    let divTextArg = document.createElement('div');A
+    let divTextArg = document.createElement('div');
     divTextArg.classList.add('card-img-overlay');
     
     let tituloArg = document.createElement('h5');
